@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบสอบถาม</title>
+</head>
+
+<body>
+  
+    <h1 style="text-align: center;">แบบสอบถาม</h1>
+    <hr>
+    
+    <form>
+        <table align="center" style="background-color: #FFFFE0; padding: 20px; border: 1px solid #ccc;">
+           <tr>
+            <td><b>ข้อมูลผู้ตอบแบบสอบถาม</b></td>
+           </tr>
+          <tr>
+                <td><b><label> ชื่อ-นามสกุล: </label> </b>
+                  <input type="text" name="name"></td>
+                
+            </tr>
+            <tr>
+                <td>
+                  <b> <label>รหัสนักศึกษา:</label></b>
+                  <input type="text" name="studentID">
+                </td>
+                
+            </tr>
+            <tr>
+                <td><b> <label>เพศ:</label></b> <input type="radio" name="gender" value="male" checked> ชาย 
+                  <input type="radio" name="gender" value="female"> หญิง</td>
+               
+                  
+                
+            </tr>
+            <tr>
+              
+              <td><b><label for="cars">สังกัดคณะ:</label></b>
+                 <select name="faculty" >
+                        <option>วิทยาศาสตร์</option>
+                        <option>วิทยาการคอมพิวเตอร์</option>
+                        <option>ครุศาสตร์</option>
+                        <option>บริหารธุรกิจ</option>
+                        <option>เกษตรศาสตร์</option>
+                        <option>พยาบาลศาสตร์</option>
+                        <option>เทคโนโลยีอุตสาหกรรม</option>
+                        <option>สาธารณสุขศาสตร์</option>
+                         
+                    </select></td>
+                  
+                  
+            <tr>
+                <td><b>แม่สีที่ชื่นชอบ:</b><br>
+                  <input type="checkbox" name="color" value="red"> สีแดง
+                    <input type="checkbox" name="color" value="blue"> สีน้ำเงิน
+                    <input type="checkbox" name="color" value="green"> สีเขียว
+                  </td>
+              
+            </tr>
+            <tr>
+                <td><b>ผลไม้ที่ชื่นชอบ:</b><br>
+
+                    <input type="checkbox" name="fruit" value="mango"> มะม่วง
+                    <input type="checkbox" name="fruit" value="orange"> น้อยหน่า
+                    <input type="checkbox" name="fruit" value="banana"> ทุเรียน<br>
+                    <input type="checkbox" name="fruit" value="banana"> ลำใย
+                    <input type="checkbox" name="fruit" value="banana"> ฝรั่ง
+                    <input type="checkbox" name="fruit" value="banana"> แตงโม
+                </td>
+            </tr>
+            <tr>
+                <td><b>อาหารที่ชื่นชอบ:</b><br>
+                    <input type="checkbox" name="food" value="grilled_pork"> ต้มยำกุ้ง
+                    <input type="checkbox" name="food" value="fried_rice"> ไข่เจียวหมูสับ
+                    <input type="checkbox" name="food" value="grilled_pork"> แกงข่าไก่<br>
+                    <input type="checkbox" name="food" value="grilled_pork"> แกงเขียวหวานไก่
+                    <input type="checkbox" name="food" value="grilled_pork"> ผัดไทย
+                    <input type="checkbox" name="food" value="grilled_pork">ราดหน้าหมี่กรอบ
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"><br>
+                    <input type="submit" value="บันทึก">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
